@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikshita Singh - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css"/> 
+    <link rel="stylesheet" href="chatbot.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="eyebrow">PLACEHOLDER City, Country</p>
+      <h1>Nikshita Singh</h1>
+      <p class="tagline">PLACEHOLDER Short role or headline, e.g. Frontend developer</p>
+      <button id="themeToggle" class="theme-toggle" type="button">Switch to Dark Mode</button>
+    </header>
+     
+    <main>
+      <section class="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>
+          I am Nikshita Singh, a Computer Science and Engineering student passionate about technology, 
+          programming, and problem-solving. I enjoy learning new skills,
+           exploring different areas of software development, and turning ideas into practical projects.
+        </p>
+        <p>
+          I am currently strengthening my programming and Data Structures and Algorithms (DSA) skills while exploring web development. 
+          I believe in continuous learning, improving through practice, 
+          and taking on new challenges that help me grow both personally and professionally.
+        </p>
+      </section>
+
+      <section class="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <ul>
+          <li>C++ Programming</li>
+          <li>Data Structures & Algorithms (DSA)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Problem-Solving</li>
+        </ul>
+      </section>
+
+      <section class="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <ul>
+          <li>
+            <a href="https://PLACEHOLDER-project-one.example.com">PLACEHOLDER Project One</a>
+            <p>PLACEHOLDER Brief description of project one.</p>
+          </li>
+          <li>
+            <a href="https://PLACEHOLDER-project-two.example.com">PLACEHOLDER Project Two</a>
+            <p>PLACEHOLDER Brief description of project two.</p>
+          </li>
+          <li>
+            <a href="https://PLACEHOLDER-project-three.example.com">PLACEHOLDER Project Three</a>
+            <p>PLACEHOLDER Brief description of project three.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <section id="aiChatSection" class="ai-chat">
+      <h2>Ask My AI Assistant</h2>
+    
+      <p>
+        Ask questions about this portfolio,
+        projects, and technologies.
+      </p>
+    
+      <div
+        id="chatMessages"
+        aria-live="polite"
+      ></div>
+    
+      <div class="chat-controls">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Ask a question..."
+        />
+    
+        <button id="sendButton" type="button">
+          Send
+        </button>
+      </div>
+    
+      <p id="chatStatus" role="status"></p>
+    
+      <p class="chat-note">
+        AI chat is available during the local
+        classroom demonstration only.
+      </p>
+    </section>
+    <footer class="site-footer">
+      <p>nikshitasingh33@gmail.com</p>
+      <section id="weather">
+        <h2>Weather</h2>
+    
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter a city"
+        >
+    
+        <button id="weatherButton">
+            Get Weather
+        </button>
+    
+        <div id="weatherResult">
+            Enter a city to see the weather.
+        </div>
+    </section>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="config.js"></script>
+    <script src="chatbot.js"></script>
+  </body>
+</html>
