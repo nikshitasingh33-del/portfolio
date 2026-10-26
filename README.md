@@ -9,11 +9,12 @@ A responsive portfolio website showcasing my profile, skills, projects and profe
 https://your-name.vercel.app
 
 
-D3 — At least two screenshots
+D3 — At least three screenshots
 
-For a portfolio, use:
-* Screenshot 1: Hero/About section<img <img width="1920" height="1080" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/08f6d815-21e7-47a5-a2f9-28d192f51e39" />
-<img width="1920" height="1080" alt="Screenshot (144)" src="https://github.com/user-attachments/assets/400e5eda-4ac6-401a-b60b-bdd0a3804ff4" />
+<img width="1920" height="1080" alt="Screenshot (186)" src="https://github.com/user-attachments/assets/238a5181-9875-47b8-bc6c-b630311f7dd4" />
+<img width="1920" height="1080" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/7900297c-85ee-4f7b-a2aa-6b498ce3f604" />
+<img width="1920" height="1080" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/9b0cf93c-eac5-48e3-bca7-facefa3298cd" />
+
 
 
 * Screenshot 2: Skills + Projects section
