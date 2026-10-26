@@ -4,9 +4,6 @@
 A responsive portfolio website showcasing my profile, skills, projects and professional links.
 
 
-## Live Portfolio
-
-https://your-name.vercel.app
 
 
 D3 — At least three screenshots
